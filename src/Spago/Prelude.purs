@@ -49,8 +49,7 @@ import Unsafe.Coerce (unsafeCoerce)
 data OnlineStatus = Offline | Online
 
 type SpagoBaseEnv a =
-  { rootPath :: Path.RootPath
-  , logOptions :: LogOptions
+  { logOptions :: LogOptions
   | a
   }
 
